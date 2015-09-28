@@ -1,0 +1,21 @@
+ul {
+list-style: none;
+				
+}
+
+ul>li { 
+display:inline;
+margin:0 .5em;
+}
+
+#bsp_images input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + label {
+    border: 1px solid red;
+}
+
+li:hover {
+    cursor: pointer;
+}
